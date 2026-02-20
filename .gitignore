@@ -1,0 +1,10 @@
+# Large dataset files
+data/*.csv
+!data/genome_tags.csv
+!data/link.csv
+!data/movie.csv
+
+# Keep only small files, ignore large ones
+data/rating.csv
+data/genome_scores.csv
+data/tag.csv
