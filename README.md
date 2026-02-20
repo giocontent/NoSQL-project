@@ -61,6 +61,23 @@ When collaborative filtering cannot make a prediction:
 
 ## 🚀 Getting Started
 
+### Dataset Setup
+
+This repository includes some dataset files in the `data/` folder:
+- ✅ `genome_tags.csv` (20KB)
+- ✅ `link.csv` (527KB)
+- ✅ `movie.csv` (1.5MB)
+
+**Large files not included** (due to GitHub size limits):
+- ❌ `rating.csv` (659MB)
+- ❌ `genome_scores.csv` (205MB)
+- ❌ `tag.csv` (21MB)
+
+**To download missing files:**
+1. Visit [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/latest/)
+2. Download the **MovieLens Latest Dataset (Small or Full)**
+3. Extract and copy `rating.csv`, `genome_scores.csv`, and `tag.csv` to the `data/` folder
+
 ### Prerequisites
 - Neo4j Community Edition (2025.10.1 or later)
 - Neo4j for VS Code extension (for interactive use)
@@ -157,7 +174,9 @@ Evaluation process:
 3. Compare predictions with actual ratings
 4. Calculate aggregate error metrics
 
-## 🔍 Test Queries
+## Rennes
+0:05
+🔍 Test Queries
 
 The project includes diagnostic queries for:
 - Database structure verification
